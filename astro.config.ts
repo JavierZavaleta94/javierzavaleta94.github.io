@@ -11,9 +11,12 @@ import compress from '@playform/compress';
 import { defineConfig, envField } from 'astro/config';
 import icon from 'astro-icon';
 import metaTags from 'astro-meta-tags';
+const dev = process.env.NODE_ENV === 'development';
 
 // https://astro.build/config
 export default defineConfig({
+  output: 'static',
+  base: dev ? '/' : '/Main-Portfolio/',
   site: getSiteUrl(),
   env: {
     schema: {
