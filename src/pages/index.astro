@@ -50,7 +50,7 @@ await initializeWebContext(Astro, {
     <SidebarItem sectionId="jobs" icon="fa6-solid:suitcase">Work experience</SidebarItem>
     <SidebarItem sectionId="projects" icon="fa6-solid:rocket">Projects</SidebarItem>
     <SidebarItem sectionId="references" icon="fa6-solid:comment">References</SidebarItem>
-    <!-- <SidebarItem sectionId="achievements" icon="fa6-solid:trophy">Achievements</SidebarItem> -->
+    <SidebarItem sectionId="achievements" icon="fa6-solid:trophy">Achievements</SidebarItem>
     <SidebarItem sectionId="education" icon="fa6-solid:graduation-cap">Education</SidebarItem>
     <!-- <SidebarItem sectionId="favorites" icon="fa6-solid:star">Favorites</SidebarItem> -->
   </Sidebar>
@@ -103,6 +103,7 @@ await initializeWebContext(Astro, {
           <Skill entry={getEntry('skills', 'salesloft')} />
           <Skill entry={getEntry('skills', 'android-studio')} />
           <Skill entry={getEntry('skills', 'vs-code')} />
+          <Skill entry={getEntry('skills', 'arduino')} />
         </HorizontalList>
       </Subsection>
       <Subsection class="gap-2">
@@ -127,7 +128,7 @@ await initializeWebContext(Astro, {
   <Section class="gap-8" id="projects">
     <SectionTitle>Projects</SectionTitle>
     <VerticalList class="gap-10">
-      <Project entry={getEntry('projects', 'moni-buddy')} />
+      <Project entry={getEntry('projects', 'leadsync')} />
       <Separator />
       <!-- <Project entry={getEntry('projects', 'user-board')} /> -->
     </VerticalList>
@@ -135,17 +136,16 @@ await initializeWebContext(Astro, {
   <Section class="gap-8" id="references">
     <SectionTitle>References</SectionTitle>
     <VerticalList class="gap-10">
-      <Reference entry={getEntry('references', 'jane-smith')} />
+      <Reference entry={getEntry('references', 'al-lemieux')} />
       <Separator />
-      <Reference entry={getEntry('references', 'john-doe')} />
     </VerticalList>
   </Section>
   <Section class="gap-8" id="achievements">
     <SectionTitle>Achievements</SectionTitle>
     <VerticalList class="gap-8">
-      <Achievement entry={getEntry('achievements', 'advanced-react-developer')} />
+      <Achievement entry={getEntry('achievements', 'javascript-algorithms-and-data-structures')} />
       <Separator />
-      <Achievement entry={getEntry('achievements', 'google-developer-expert')} />
+      <Achievement entry={getEntry('achievements', 'responsive-web-design')} />
       <!-- <Separator />
       <Achievement entry={getEntry('achievements', 'reactathon-hackathon')} />
       <Separator />
@@ -155,9 +155,9 @@ await initializeWebContext(Astro, {
   <Section class="gap-8" id="education">
     <SectionTitle>Education</SectionTitle>
     <VerticalList class="gap-10">
-      <Education entry={getEntry('education', 'master')} />
-      <Separator />
       <Education entry={getEntry('education', 'bachelor')} />
+      <Separator />
+      <Education entry={getEntry('education', 'associate')} />
     </VerticalList>
   </Section>
   <!-- 

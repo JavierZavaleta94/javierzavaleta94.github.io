@@ -91,7 +91,7 @@ await initializePdfContext(Astro, {
   <Section class="gap-4">
     <SectionTitle>Projects</SectionTitle>
     <VerticalList class="gap-6">
-      <Project entry={getEntry('projects', 'moni-buddy')} />
+      <Project entry={getEntry('projects', 'leadsync')} />
       <Separator />
       <Project entry={getEntry('projects', 'user-board')} />
     </VerticalList>
@@ -99,25 +99,24 @@ await initializePdfContext(Astro, {
   <Section class="gap-4">
     <SectionTitle>References</SectionTitle>
     <VerticalList class="gap-4">
-      <Reference entry={getEntry('references', 'jane-smith')} />
+      <Reference entry={getEntry('references', 'al-lemieux')} />
       <Separator />
-      <Reference entry={getEntry('references', 'john-doe')} />
     </VerticalList>
   </Section>
   <Section class="gap-4">
     <SectionTitle>Achievements</SectionTitle>
     <VerticalList class="gap-3">
-      <Achievement entry={getEntry('achievements', 'google-developer-expert')} />
-      <Achievement entry={getEntry('achievements', 'reactathon-hackathon')} />
+      <Achievement entry={getEntry('achievements', 'javascript-algorithms-and-data-structures')} />
+      <Achievement entry={getEntry('achievements', 'responsive-web-design')} />
       <Achievement entry={getEntry('achievements', 'redux-toolkit-contributor')} />
     </VerticalList>
   </Section>
   <Section class="gap-4">
     <SectionTitle>Education</SectionTitle>
     <VerticalList class="gap-6">
-      <Education entry={getEntry('education', 'master')} />
-      <Separator />
       <Education entry={getEntry('education', 'bachelor')} />
+      <Separator />
+      <Education entry={getEntry('education', 'associate')} />
     </VerticalList>
   </Section>
   <Section class="gap-4">
