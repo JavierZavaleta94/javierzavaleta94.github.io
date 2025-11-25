@@ -70,6 +70,7 @@ await initializeWebContext(Astro, {
           <Skill withLevel entry={getEntry('skills', 'bootstrap')} />
           <Skill withLevel entry={getEntry('skills', 'node-js')} />
           <Skill withLevel entry={getEntry('skills', 'php')} />
+          <Skill withLevel entry={getEntry('skills', 'laravel')} />          
           <Skill withLevel entry={getEntry('skills', 'mysql')} />
           <Skill withLevel entry={getEntry('skills', 'rest-api')} />
           <Skill withLevel entry={getEntry('skills', 'json')} />
@@ -93,17 +94,28 @@ await initializeWebContext(Astro, {
           <Skill entry={getEntry('skills', 'hubspot-crm')} />
           <Skill entry={getEntry('skills', 'google-analytics')} />
           <Skill entry={getEntry('skills', 'google-tag-manager')} />
-          <Skill entry={getEntry('skills', 'ab-testing')} />
           <Skill entry={getEntry('skills', 'browserstack')} />
-          <Skill entry={getEntry('skills', 'agile-methodologies')} />
-          <Skill entry={getEntry('skills', 'continuous-improvement')} />          
-          <Skill entry={getEntry('skills', 'project-management')} />
+          <Skill entry={getEntry('skills', 'ninja-forms')} />
           <Skill entry={getEntry('skills', 'stripe')} />
           <Skill entry={getEntry('skills', 'livestorm')} />
           <Skill entry={getEntry('skills', 'salesloft')} />
+          <Skill entry={getEntry('skills', 'microsoft-office')} />          
           <Skill entry={getEntry('skills', 'android-studio')} />
           <Skill entry={getEntry('skills', 'vs-code')} />
           <Skill entry={getEntry('skills', 'arduino')} />
+        </HorizontalList>
+      </Subsection>
+      <Subsection class="gap-2">
+        <SubsectionTitle>Methodologies</SubsectionTitle>
+        <HorizontalList class="gap-3">
+          <Skill entry={getEntry('skills', 'agile-methodologies')} />
+          <Skill entry={getEntry('skills', 'continuous-improvement')} />          
+          <Skill entry={getEntry('skills', 'project-management')} />
+          <Skill entry={getEntry('skills', 'ab-testing')} />
+          <Skill entry={getEntry('skills', 'communication')} />
+          <Skill entry={getEntry('skills', 'teaching')} />
+          <Skill entry={getEntry('skills', 'management')} />
+          <Skill entry={getEntry('skills', 'data-structures-algorithms')} />
         </HorizontalList>
       </Subsection>
       <Subsection class="gap-2">
@@ -138,6 +150,7 @@ await initializeWebContext(Astro, {
     <VerticalList class="gap-10">
       <Reference entry={getEntry('references', 'al-lemieux')} />
       <Separator />
+      <Reference entry={getEntry('references', 'stefan-dindyal')} />
     </VerticalList>
   </Section>
   <Section class="gap-8" id="achievements">
@@ -211,8 +224,7 @@ await initializeWebContext(Astro, {
         </GridList>
       </Subsection>
     </VerticalList>
-  </Section>
-  -->
+  </Section> -->
   <Section class="gap-8">
     <SectionTitle>Interests</SectionTitle>
     <HorizontalList class="gap-x-4 gap-y-3">
