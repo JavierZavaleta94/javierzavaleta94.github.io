@@ -16,7 +16,7 @@ const dev = process.env.NODE_ENV === 'development';
 // https://astro.build/config
 export default defineConfig({
   output: 'static',
-  base: dev ? '/' : '/Main-Portfolio/',
+  base: '/',
   site: getSiteUrl(),
   env: {
     schema: {
