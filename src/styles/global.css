@@ -1,0 +1,53 @@
+.dark {
+    .bg-color-button-bg {
+        background-color: #2d6df6;
+    }
+}
+
+.dark {
+    .bg-color-button-bg:hover {
+        background-color: #234ecf;
+    }
+}
+
+/* .dark {
+    [aria-label="GitHub"] {
+        background-color: #60a5fa;
+    }
+}
+
+.dark {
+    [aria-label="LinkedIn"] {
+        background-color: #60a5fa;
+    }
+} */
+
+.dark {
+    .border-color-web-heading-underline {
+        border-color: #3b82f6;
+    }
+}
+
+.dark {
+    .bg-color-bg-dark {
+        background-color: #3ee69f;
+    }
+}
+
+.dark {
+    a[data-astro-cid-ateh5jll]:not([aria-current="page"]):hover {
+        background-color: #2d6df6;
+    }
+}
+
+.dark {
+    a[data-astro-cid-ateh5jll][aria-current=page] {
+        background-color: #2d6df6;
+    }
+}
+
+.dark {
+    a[data-astro-cid-ateh5jll]:not([aria-current="page"]):hover {
+        color: #fff
+    }
+}
