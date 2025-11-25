@@ -16,8 +16,8 @@ const dev = process.env.NODE_ENV === 'development';
 // https://astro.build/config
 export default defineConfig({
   output: 'static',
-  base: '/',
-  site: getSiteUrl(),
+  base: '/javierzavaleta94.github.io',
+  site: 'https://javierzavaleta94.github.io/',
   env: {
     schema: {
       PUBLIC_UMAMI_WEBSITE_ID: envField.string({ context: 'client', access: 'public', optional: true }),

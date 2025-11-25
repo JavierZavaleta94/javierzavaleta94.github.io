@@ -1,0 +1,7 @@
+.dark .bg-color-button-bg {
+    background-color: #2d6df6;
+}
+
+.dark .bg-color-button-bg:hover {
+    background-color: #2f5fc6;
+}

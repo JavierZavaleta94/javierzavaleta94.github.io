@@ -14,7 +14,7 @@ const props: ComponentProps<typeof MainTemplate> = {
     dateFormat: 'MMMM yyyy',
     theme: 'custom',
     pdf: {
-      path: '/pdf/javier-resume.pdf',
+      path: `${import.meta.env.BASE_URL}javier-resume.pdf`,
       label: 'Download resume',
       filename: 'javier-resume.pdf',
     },
