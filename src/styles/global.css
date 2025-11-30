@@ -1,12 +1,34 @@
+.bg-color-button-bg, [aria-label="GitHub"], [aria-label="LinkedIn"] {
+    font-size: 1.1rem;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 6px 0 #65758b;
+    transition: 0.2s;
+}
+
+.bg-color-button-bg:hover, [aria-label="GitHub"]:hover, [aria-label="LinkedIn"]:hover {
+    transform: translateY(3px);
+    box-shadow: 0 1px 0 #65758b;
+}
+
 .dark {
-    .bg-color-button-bg {
-        background-color: #2d6df6;
+    .bg-color-button-bg, [aria-label="GitHub"], [aria-label="LinkedIn"] {
+    box-shadow: 0 6px 0 #020617;
     }
 }
 
 .dark {
-    .bg-color-button-bg:hover {
-        background-color: #234ecf;
+    .bg-color-button-bg:hover, [aria-label="GitHub"]:hover, [aria-label="LinkedIn"]:hover {
+    box-shadow: 0 1px 0 #020617;
+    }
+}
+
+
+.dark {
+    .bg-color-button-bg {
+        background-color: #2d6df6;
     }
 }
 
